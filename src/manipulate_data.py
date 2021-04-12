@@ -7,6 +7,7 @@ def parse_date_in_title(title: str):
         return match
     
     date = match.group()[1:5]
+    date = int(date)
     return date
 
 def get_value_for_key(df, key, col_key, col_value):
