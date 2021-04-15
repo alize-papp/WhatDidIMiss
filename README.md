@@ -8,14 +8,14 @@ Some years are busier than others and sometimes at the end of the year, I notice
 - [X] Create a general purpose movie recommender on small dataset
 - [X] Test movie recommender
 - [X] Add a filter to recommend only movies of a given year
+- [X] Visualize latent matrix
 - [ ] Select evaluation metrics (MAP@K, RMSE, MAE...)
-- [ ] Visualize latent matrix
 - [ ] Adapt to new user: from notebook, ask if the user liked a bunch of movies and return recommendation
 - [ ] Implement best sampling strategy to ask which movies the user saw and how they rate it
 - [ ] Fine tune recommender using adapted metrics
 - [ ] [Optional] Develop Dash app to use the movie recommender
 - [ ] [Optional] Use PySpark to run the SVD on the large dataset
-- [ ] [Optional] Interprete SVD with proper visualizations
+- [ ] [Optional] Finish interpreting SVD with proper visualizations
 
 ## Resources
 - Data: [https://grouplens.org/datasets/movielens/latest/](https://grouplens.org/datasets/movielens/latest/)
