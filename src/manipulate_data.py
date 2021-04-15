@@ -10,7 +10,7 @@ def parse_date_in_title(title: str):
     date = int(date)
     return date
 
-def get_value_for_key(df, key, col_key, col_value):
+def get_value_for_key(key, df, col_key, col_value):
     found_key = df.loc[df[col_key] == key, col_value].values
     if found_key.shape[0] != 1:
         return None
